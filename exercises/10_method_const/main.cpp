@@ -1,9 +1,11 @@
 #include "../exercise.h"
 
 struct Fibonacci {
-    int numbers[11];
+    int numbers[11] ;
     // TODO: 修改方法签名和实现，使测试通过
-    int get(int i) {
+    public:
+     int get(int i) const{
+        return this->numbers[i];
     }
 };
 
